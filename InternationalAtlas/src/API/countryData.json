@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "name": "India",
+        "capital": "New Delhi",
+        "region": "Asia",
+        "population": 1380004385,
+        "area": 3287590,
+        "interestingFact": "India is home to the world's largest film industry, Bollywood."
+    },
+    {
+        "id": 2,
+        "name": "China",
+        "capital": "Beijing",
+        "region": "Asia",
+        "population": 1443496281,
+        "area": 9596961,
+        "interestingFact": "China has the world's longest wall, the Great Wall of China, which stretches over 4,000 miles."
+    },
+    {
+        "id": 3,
+        "name": "United States",
+        "capital": "Washington, D.C.",
+        "region": "Americas",
+        "population": 331449281,
+        "area": 9833520,
+        "interestingFact": "The United States is home to the world's largest ball of twine, located in Cawker City, Kansas."
+    },
+    {
+        "id": 4,
+        "name": "Indonesia",
+        "capital": "Jakarta",
+        "region": "Asia",
+        "population": 273523615,
+        "area": 1905097,
+        "interestingFact": "Indonesia is home to over 130 active volcanoes, including Krakatoa, which erupted in 1883 and was heard over 3,000 miles away."
+    },
+    {
+        "id": 5,
+        "name": "Pakistan",
+        "capital": "Islamabad",
+        "region": "Asia",
+        "population": 216565317,
+        "area": 796095,
+        "interestingFact": "Pakistan is home to the ancient Indus Valley Civilization, which dates back to 3300 BCE."
+    },
+    {
+        "id": 6,
+        "name": "Brazil",
+        "capital": "Brasília",
+        "region": "Americas",
+        "population": 212559417,
+        "area": 8514877,
+        "interestingFact": "Brazil is home to the Amazon rainforest, which produces over 20% of the world's oxygen."
+    },
+    {
+        "id": 7,
+        "name": "Nigeria",
+        "capital": "Abuja",
+        "region": "Africa",
+        "population": 202915907,
+        "area": 923768,
+        "interestingFact": "Nigeria is home to over 250 ethnic groups, making it one of the most culturally diverse countries in the world."
+    },
+    {
+        "id": 8,
+        "name": "Bangladesh",
+        "capital": "Dhaka",
+        "region": "Asia",
+        "population": 166303498,
+        "area": 147570,
+        "interestingFact": "Bangladesh is home to the Sundarbans, the largest mangrove forest in the world."
+    },
+    {
+        "id": 9,
+        "name": "Russia",
+        "capital": "Moscow",
+        "region": "Europe",
+        "population": 145934027,
+        "area": 17125191,
+        "interestingFact": "Russia spans across 11 time zones, making it the country with the most time zones in the world."
+    },
+    {
+        "id": 10,
+        "name": "Japan",
+        "capital": "Tokyo",
+        "region": "Asia",
+        "population": 128457531,
+        "area": 377944,
+        "interestingFact": "Japan has a vending machine culture, with over 5.5 million vending machines across the country."
+    }
+]
