@@ -1,11 +1,11 @@
-import React, { useEffect, useId, useState, useTransition } from 'react'
+import React, { useContext, useEffect } from 'react'
+import { CountryContext } from '../../store/CountryProvider';
 import { getCountryList } from '../../API/apiMethods'
 import CountryList from '../components/CountryList';
 import Loader from '../components/Loader';
 
 const Country = () => {
-    const [countryList, setCountryList] = useState([]);
-    const [isPending, startTransition] = useTransition();
+    const { countryList, setCountryList, isPending, startTransition } = useContext(CountryContext);
 
     // Funtion to fetch list of countries 
     const getCountryData = async () => {

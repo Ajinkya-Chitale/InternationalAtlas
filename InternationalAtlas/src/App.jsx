@@ -6,6 +6,8 @@ import About from './UI/pages/About'
 import Country from './UI/pages/Country'
 import Contact from './UI/pages/Contact'
 import NotFound from './UI/pages/NotFound'
+import CountryDetails from './UI/components/CountryDetails'
+import { CountryProvider } from './store/CountryProvider'
 
 function App() {
   const router = createBrowserRouter([
@@ -30,6 +32,10 @@ function App() {
         {
           path: '/contact',
           element: <Contact />
+        },
+        {
+          path: 'country/:id',
+          element: <CountryDetails />
         }
       ]
     }
@@ -37,7 +43,9 @@ function App() {
 
   return (
     <>
-      <RouterProvider router={router} />
+      <CountryProvider>
+        <RouterProvider router={router} />
+      </CountryProvider>
     </>
   )
 }
