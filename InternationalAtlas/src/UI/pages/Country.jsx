@@ -3,6 +3,7 @@ import { CountryContext } from '../../store/CountryProvider';
 import { getCountryList } from '../../API/apiMethods'
 import CountryList from '../components/CountryList';
 import Loader from '../components/Loader';
+import SearchSection from '../components/SearchSection';
 
 const Country = () => {
     const { countryList, setCountryList, isPending, startTransition } = useContext(CountryContext);
@@ -24,6 +25,7 @@ const Country = () => {
 
     useEffect(() => {
         startTransition(async () => {
+            if (countryList.length > 0) return;
             await getCountryData();
         })
     }, [])
@@ -33,6 +35,7 @@ const Country = () => {
     return (
         <section className='bg-gray-900 text-gray-300 py-8'>
             <div className='mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8'>
+                <SearchSection />
                 <div className='grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8'>
                     {
                         countryList.map((data, index) => {
