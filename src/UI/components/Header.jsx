@@ -5,7 +5,7 @@ const Header = () => {
     return (
         <header>
             <div className='bg-gray-800'>
-                <nav className='max-w-7xl w-full mx-auto text-gray-300 flex justify-between items-center flex-col sm:flex-row h-16 sm:h-20'>
+                <nav className='max-w-7xl w-full mx-auto text-gray-300 flex justify-between items-center flex-col sm:flex-row h-20 sm:h-20 pb-3 sm:pb-0'>
                     <h1 className='text-2xl font-semibold tracking-wide'>
                         <NavLink className="flex items-center gap-2" to={'/'}>
                             <img className='h-4 w-4' src="/images/globe.png" alt="logo icon" /> <span>InternationalAtlas</span>
